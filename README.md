@@ -12,3 +12,9 @@
 Next.js
 Tailwind Css
 TypeScript
+
+
+Full-Version 90% complete
+Mobile-Version 45% complete [min 400px max 600px]
+
+

@@ -13,7 +13,7 @@ import { SeventhSection } from "@/components/SeventhSection";
 
 export default function Home() {
     return (
-        <div className="text-white bg-black flex flex-col justify-between min-h-screen w-[1512px]">
+        <div className="text-white bg-black flex flex-col justify-between min-h-screen w-full ">
             <FirstSection />
             <SecondSection />
             <ThirdSection />

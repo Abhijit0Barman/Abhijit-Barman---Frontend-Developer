@@ -7,7 +7,7 @@ export const SixthSection = () => {
       <div className="w-[503px] h-[503px] ">
         <img src="/bot-logo-left.svg" alt="" />
       </div>
-      <div className="border flex flex-col items-center  w-[640px]">
+      <div className=" flex flex-col items-center  w-[640px]">
         <p
           className="text-[44px] mb-[70px] text-[#ED0137] w-[119px] h-[52px] "
         >
