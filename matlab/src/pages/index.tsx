@@ -1,4 +1,4 @@
-
+'use client'
 import Image from "next/image";
 import { Shojumaru } from "next/font/google";
 import { Button } from "../components/Button";
@@ -6,14 +6,9 @@ import { Button } from "../components/Button";
 // const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-
-
-
-const handleClick=()=>{
-  alert(`hello`)
-
-}
-
+    const handleClick = () => {
+        alert(`hello`);
+    };
 
     return (
         <div className="text-white bg-black">
