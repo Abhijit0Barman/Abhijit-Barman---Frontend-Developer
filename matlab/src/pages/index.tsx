@@ -12,15 +12,17 @@ import { SeventhSection } from "@/components/SeventhSection";
 // const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-    return (
-        <div className="text-white bg-black flex flex-col justify-between min-h-screen w-full ">
-            <FirstSection />
-            <SecondSection />
-            <ThirdSection />
-            <FourthSection />
-            <FifthSection />
-            <SixthSection />
-            <SeventhSection />
-        </div>
-    );
+  return (
+
+      <div className="text-white bg-black flex flex-col justify-between min-h-screen w-full ">
+
+        <FirstSection />
+        <SecondSection />
+        <ThirdSection />
+        <FourthSection />
+        <FifthSection />
+        <SixthSection />
+        <SeventhSection />
+      </div>
+  );
 }

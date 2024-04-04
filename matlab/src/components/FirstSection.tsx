@@ -1,14 +1,17 @@
+"use client"
 import React from "react";
+import {Web3Button} from "@web3modal/react";
 
 export const FirstSection = () => {
   const handleClick = () => {
     alert(`hello`);
+   
   };
   return (
     <div
       id="top"
       className="min-w-screen h-[588px] bg-cover md:bg-[url('/top.svg')]  sm:bg-[url('/mb1bg.svg')] sm:h-[888px]  "
-    >
+    > <Web3Button></Web3Button>
       <div id="navbar" className="flex justify-between p-6 items-center ">
         <div id="left-top-logo" className="flex items-center  content-center ">
           <div className="block md:hidden ">
